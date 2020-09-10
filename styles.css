@@ -1,5 +1,73 @@
 * {
   margin: 0;
   padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
   box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+.content-body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.wrapper {
+  position: relative;
+}
+
+.section-one {
+  background: linear-gradient(
+      0deg,
+      rgba(0, 74, 117, 0.6),
+      rgba(0, 74, 117, 0.6)
+    ),
+    url("./assets/work-desk__dustin-lee.jpg");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: #ffffff;
+}
+
+.section-one h1 {
+  font-size: 46px;
+  font-weight: 100;
+  margin: 0 0 4px 0;
+}
+
+.section-one h2 {
+  font-size: 36px;
+  margin: 4px 0 12px 0;
+}
+
+.section-one p {
+  font-size: 24px;
+  font-weight: 100;
+  margin: 3px 0;
+}
+
+.section-one button {
+  margin-top: 32px;
+  background: none;
+  outline: none;
+  border: 2px solid #ffffff;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 18px 28px;
+  font-size: 20px;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: bold;
+  transition: background-color 0.4s ease, color 0.4s ease;
+}
+
+.section-one button:hover {
+  background-color: #ffffff;
+  color: #004a75;
 }
