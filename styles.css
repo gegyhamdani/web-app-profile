@@ -32,35 +32,39 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  text-align: center;
   color: #ffffff;
 }
 
 .section-one h1 {
-  font-size: 46px;
-  font-weight: 100;
+  font-size: 2.8rem;
+  font-weight: lighter;
   margin: 0 0 4px 0;
+  padding: 0 1rem;
 }
 
 .section-one h2 {
-  font-size: 36px;
+  font-size: 2.25rem;
   margin: 4px 0 12px 0;
+  padding: 0 1rem;
 }
 
 .section-one p {
-  font-size: 24px;
-  font-weight: 100;
+  font-size: 1.5rem;
+  font-weight: lighter;
   margin: 3px 0;
+  padding: 0 1rem;
 }
 
 .section-one button {
-  margin-top: 32px;
+  margin-top: 2rem;
   background: none;
   outline: none;
   border: 2px solid #ffffff;
   border-radius: 4px;
   cursor: pointer;
-  padding: 18px 28px;
-  font-size: 20px;
+  padding: 1.1rem 1.75rem;
+  font-size: 1.25rem;
   color: #ffffff;
   text-transform: uppercase;
   font-weight: bold;
@@ -70,4 +74,72 @@
 .section-one button:hover {
   background-color: #ffffff;
   color: #004a75;
+}
+
+.section-two {
+  background: #e5e5e5;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: #000000;
+  text-align: center;
+}
+
+.section-two h2 {
+  font-size: 2.3rem;
+  font-weight: lighter;
+  margin: 5rem 0 1rem 0;
+  padding: 0 1rem;
+}
+
+.section-two p {
+  font-size: 1.5rem;
+  font-weight: lighter;
+  margin: 3px 0;
+  padding: 0 1rem;
+}
+
+.card-grid {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 4rem 12px;
+}
+
+.card-item {
+  display: flex;
+  padding: 1rem;
+  width: 33.3333%;
+  text-align: left;
+}
+
+.card {
+  border: 2px solid #afafaf;
+  padding: 1.5rem 1rem;
+}
+
+.card h3 {
+  font-size: 1.75rem;
+  font-weight: lighter;
+  margin-bottom: 1rem;
+}
+
+.card p {
+  font-size: 1rem;
+  font-weight: lighter;
+  padding: 0;
+  line-height: 1.6;
+}
+
+@media screen and (max-width: 960px) {
+  .card-item {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .card-item {
+    width: 100%;
+  }
 }
