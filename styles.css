@@ -65,7 +65,7 @@
   filter: brightness(120%);
 }
 
-@media (max-width: 720px) {
+@media only screen and (max-width: 720px) {
   .notification-wrapper {
     padding: 10px;
     width: 100%;
@@ -146,7 +146,7 @@
   filter: brightness(110%);
 }
 
-@media (max-width: 540px) {
+@media only screen and (max-width: 540px) {
   .newsletter form {
     justify-content: center;
     flex-direction: column;
@@ -174,19 +174,19 @@
   padding-top: 0 !important;
 }
 
-@media (max-width: 720px) {
+@media only screen and (max-width: 720px) {
   .content-body {
     padding-top: 115px;
   }
 }
 
-@media (max-width: 597px) {
+@media only screen and (max-width: 597px) {
   .content-body {
     padding-top: 140px;
   }
 }
 
-@media (max-width: 410px) {
+@media only screen and (max-width: 410px) {
   .content-body {
     padding-top: 163px;
   }
@@ -326,13 +326,13 @@
   line-height: 1.6;
 }
 
-@media (max-width: 960px) {
+@media only screen and (max-width: 960px) {
   .card-item {
     width: 50%;
   }
 }
 
-@media (max-width: 480px) {
+@media only screen and (max-width: 480px) {
   .card-item {
     width: 100%;
   }
