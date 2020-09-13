@@ -14,7 +14,18 @@
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    <div class="content-body">
+    <section class="notification" id="notification">
+      <div class="notification-wrapper">
+        <p>
+          By accessing and using this website, you acknowledge that you have
+          read and understand our <a href="#">Cookie Policy</a>,
+          <a href="#">Privacy Policy</a>, and our
+          <a href="#">Terms of Service.</a>
+        </p>
+        <button id="notification-button">Got It</button>
+      </div>
+    </section>
+    <div class="content-body" id="content-body">
       <section class="wrapper section-one">
         <img src="assets/y-logo-white.png" alt="logo" />
         <h1>Hello! I'm Gegy Faskal Nur Hamdani</h1>
@@ -101,8 +112,10 @@
       </section>
     </div>
     <footer>
-      &copy;&nbsp;<span id="copyright"></span>&nbsp;Gegy Faskal Nur Hamdani. All
-      rights reserved.​
+      <span class="footer-text"
+        >&copy;&nbsp;<span id="copyright"></span>&nbsp;Gegy Faskal Nur Hamdani.
+        All rights reserved.​</span
+      >
     </footer>
     <script src="./app.js" async defer></script>
   </body>
